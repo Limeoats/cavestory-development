@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+/.settings/
+/.cproject
+/.gitignore
+/.project
+#.gitignore
+/Debug/
