@@ -1,0 +1,66 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 1 - Introduction
+By: Limeoats
+www.limeoats.com
+=====================================================
+
+Welcome to Remaking Cavestory in C++!
+
+=====================================================
+What will you get out of watching this series?
+=====================================================
+	-You will learn how to create an indie game from scratch
+		-More specifically, a 2D Action-Adventure Platformer
+	-You will learn some C++ skills that you may not already have
+	-You'll walk away with code that can be applied to any game you'd like to make
+	-You'll have a resource (me) to help with any questions you might have along the way
+	-You will have a respository with all of the code available at all time
+	
+=====================================================
+What is this not?
+=====================================================
+	-A C++ class
+		-You're expected to know [some] programming / C++ coming into this
+	-An art class
+	-A music class
+
+=====================================================
+What tools are we going to use to put this all together?
+=====================================================
+	-An IDE / editor of your choice that can make C++ applications
+		-Visual Studio, Eclipse, Netbeans, Emacs, VIM, notepad, etc.
+			-I'm using Eclipse for this, but any of the above work just as well
+	-A C++ compiler
+		-This is built into Visual Studio and some others.
+			-I'm using clang++ 
+	-Tiled Map Editor (mapeditor.org)
+		-Free map editor for creating all of our levels
+	-The original Cavestory assets
+		-Download the original cavestory from cavestory.org
+			-All assets are in the downloaded folder
+	-Audio tools I haven't thought about yet
+		-I'll get to this later on in the series when we need it
+	-Some kind of image editing tool (paint, paint.NET, photoshop)
+		-I'll be using either paint.NET or GIMP
+	-Probably more, but we'll deal with that as we get to it
+	
+=====================================================
+Setting everything up!
+=====================================================
+	-I'll be doing all of my development on Mac OS X
+		-This is C/C++, so you can do your development on any platform
+			-There might be some minor library differences between platforms.
+			 If you run into these problems, contact me and I'll help you through them.
+	-Download SDL2 (I use version 2.0.3) - https://www.libsdl.org/download-2.0.php
+		-Make sure you grab the development library
+	-I'm using Eclipse CDT - https://eclipse.org/cdt/
+	-If you're on a Mac, run the .dmg file you just downloaded for SDL2
+		-Grab the .framework file inside and put it in ~/Library/Frameworks
+	-In your IDE, set up the linker.
+		-If you're using Windows / Visual Studio, you need to also set up includes.
+			-There are guides on the internet for this
+			-This is all included in the Mac .framework for SDL2.
+	-Get your C++ project created, include SDL2, and make sure everything is working.
+	-If you got this far, you're all set up and ready to go!
+	
