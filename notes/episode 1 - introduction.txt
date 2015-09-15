@@ -64,4 +64,4 @@ Setting everything up!
 			-There are guides on the internet for this
 			-This is all included in the Mac .framework for SDL2.
 	-Get your C++ project created, include SDL2, and make sure everything is working.
-	-If you got this far, you're all set up and ready to go!
+	-If you got this far, you're all set up and ready to go!!
