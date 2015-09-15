@@ -1,0 +1,43 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 3 - The game class and input
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/limeoats
+=====================================================
+
+=====================================================
+Problem
+=====================================================
+	-We need a more central location for the game loop logic
+	-Events (input, closing the window, etc)
+	-Limiting FPS
+	-The rest of the game class
+
+
+=====================================================
+Details
+=====================================================
+	-Cavestory runs at 50 FPS
+
+=====================================================
+Solution
+=====================================================
+	-Create the game class and implement it
+	-Create the input class and implement it
+	-Add input to game loop
+	-Limit FPS
+	
+=====================================================
+Next time
+=====================================================
+	-Drawing Quote!
+		-Creating our own Sprite class
+		-Enhancements to the graphics class
+		
+		
+		
+
+	
