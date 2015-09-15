@@ -1,0 +1,36 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 2 - Creating the game window
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+=====================================================
+
+=====================================================
+Problem
+=====================================================
+	-We need a window on the screen to draw our game to
+	
+=====================================================
+Details
+=====================================================
+	-We'll have a class dedicated entirely to graphics
+	-Cavestory's resolution is 640x480
+	
+=====================================================
+Solution
+=====================================================
+	-Split up headers / implementation files
+	-Create graphics class
+	-Call it from main (for now)
+	
+
+=====================================================
+Next time
+=====================================================
+-Create a game class to hold the game loop
+	-Listen for events in the game loop
+		-Inputs to close the window (no more infinite loop) :)
+	-Create a skeleton for the game class
+
