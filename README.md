@@ -1,5 +1,6 @@
 # Remaking Cavestory in C++
 All of the source code from my Remaking Cavestory in C++ youtube series can be found in this repository.
+Check the releases to view the source code at the state its in after each individual episode.
 
 
 ## Assets
