@@ -1,0 +1,45 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 4 - Drawing our character
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+=====================================================
+Problem
+=====================================================
+	-We should put our comments in the header files
+	-We need to be able to draw things to the screen
+		-More specifically, our character - Quote!
+	-Our graphics class doesn't do much right now
+	-We can't load PNG files just yet
+
+=====================================================
+Details
+=====================================================
+	-Spritesheet for quote - MyChar.png
+	-https://www.libsdl.org/projects/SDL_image/
+	-All sprites (i think) are scaled by 2 (doubled in size)
+
+=====================================================
+Solution
+=====================================================
+	-Download and add SDL_image to project includes
+	-Convert MyChar.pbm to PNG
+	-Modify graphics class to draw to the screen
+	-Implement a sprite class
+	-Add some [safe] global variables
+	-Modify game class to draw sprites
+	-Add it all into game to draw the player!
+	
+=====================================================
+Next time
+=====================================================
+	-It's time for Quote to move (animations)
+		-AnimatedSprite class
+	-Learn more about how spritesheets work
+	
+	
