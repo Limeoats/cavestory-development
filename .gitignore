@@ -33,3 +33,4 @@
 #.gitignore
 /Debug/
 /.DS_Store
+/content
