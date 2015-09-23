@@ -1,0 +1,55 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 6 - The player class
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-We need a class to hold the Player object
+	-The player needs to be able to move around the screen
+		-Changing direction
+
+=====================================================
+Details
+=====================================================
+	-Player timeToUpdate - 100 looks good
+	-We'll start out facing right for now
+
+=====================================================
+Solution
+=====================================================
+	-Make setupAnimations "protected" in AnimatedSprite
+	-Make setupAnimations and animationDone pure virtual in AnimatedSprite
+	-Create the player class and get everything working as it is now
+	-Add global enum for direction (which way Quote is facing)
+	-Add two new animations: IdleLeft and IdleRight
+	-Add movement to the player class
+	-Use the movement functions in the game class with input!
+	
+
+=====================================================
+Next time
+=====================================================
+	-Level class!
+	-Four parts (four separate episodes)
+	-Part 1
+			-Create a VERY empty Level class
+			-Draw the background to the screen
+	-Part 2
+			-Drawing the level in Tiled (and downloading TinyXML2)
+	-Part 3
+			-Writing the code to parse a .tmx file (Tiled)
+	-Part 4
+			-Add tile collisions in Tiled (and in the code!)	
+
+
+
+
+	
