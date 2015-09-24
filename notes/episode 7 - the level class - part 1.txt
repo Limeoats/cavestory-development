@@ -1,0 +1,37 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 7 - The Level class - Part 1
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-We need a way to represent a "Level" or a "Map"
+	-We need to draw a background on the screen
+
+=====================================================
+Details
+=====================================================
+	-Background is bkBlue
+	-Backgrounds are 64x64 px
+
+=====================================================
+Solution
+=====================================================
+	-Create the Level class
+	-Create new directory content/backgrounds
+	-Convert bkBlue.pbm to bkBlue.png	 
+	-Add the level to the game class
+	-Fix Quote's transparency
+
+=====================================================
+Next time
+=====================================================
+	-Part 2
+		-Drawing the level in Tiled (and downloading TinyXML2)
