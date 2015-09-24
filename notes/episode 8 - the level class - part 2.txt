@@ -1,0 +1,58 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 8 - The level class - Part 2
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-We need to actually draw the map in Tiled!
+	-We need an XML parsing library
+
+=====================================================
+Details
+=====================================================
+	-New Tiled map
+		-Orthogonal
+		-Xml
+		-Right down	
+		
+		(all of this is x2)
+		width: 20 tiles
+		height: 16 tiles 
+		
+		tile width: 16px
+		tile height: 16px
+		
+		
+	-TinyXML2: https://github.com/leethomason/tinyxml2 -> download as zip
+
+=====================================================
+Solution
+=====================================================
+	-Fix destRect for backgrounds
+	-Downloaded Tiled if you haven't already
+	-Create new directory content/tilesets
+	-Create new directory content/maps
+	-Convert data/stage/prtcave.pbm to png
+	-Load tileset into tiled and make the map (two different layers)
+	-Download TinyXML2 and set it up
+
+=====================================================
+Next time
+=====================================================
+	-Use TinyXML library to parse the .tmx file
+	-We will see the map in our game on the screen
+
+=====================================================
+NOTES FOR ME
+=====================================================
+
+
+	
