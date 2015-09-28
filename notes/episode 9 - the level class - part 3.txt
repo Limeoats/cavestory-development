@@ -1,0 +1,48 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 9 - The level class - Part 3
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-Now that we have our map built, we need our program to read and understand it
+	-Before that, WE need to understand it	
+
+
+
+=====================================================
+Details
+=====================================================
+	-We'll parse XML with TinyXML library
+
+
+
+=====================================================
+Solution
+=====================================================
+	-Add SDL_DestroyRenderer (thanks Symbiotic)
+	-Create Tile class
+	-Create Tileset struct (in level.h)
+	-Add new variables to Level class
+	-Include TinyXML in level.cpp and implement LoadMap
+
+	
+
+=====================================================
+Next time
+=====================================================
+	-Gravity!
+	-Collision!
+	-Jumping!
+	-Player spawn point
+	
+	
+	
+	
