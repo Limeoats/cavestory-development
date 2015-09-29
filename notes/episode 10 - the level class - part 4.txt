@@ -1,0 +1,57 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 10 - The level class - Part 4
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-We need gravity to be applied to our character
+	-Collision!
+	-Specify spawn point in Tiled
+
+
+
+=====================================================
+Details
+=====================================================
+	-Gravity constants:
+		GRAVITY = 0.002f;
+		GRAVITY_CAP = 0.8f;
+		
+	-Spawn point: 280, 252
+
+
+=====================================================
+Solution
+=====================================================
+	-Add gravity to the player
+	-Create "side" namespace in globals
+	-Create the rectangle class
+	-Add collisionRects vector to Level
+	-Draw the collisions in Tiled
+	-Parse the collisions
+	-Check tile collisions!
+	-Bounding box 
+	-getCollisionSide in sprite class
+	-handleTileCollisions in player class
+	-Finally, add it all to the game class!!
+	-Draw spawn point in Tiled
+	-Parse it and save it in spawn point
+	-Change spawn point in game class to use it
+
+=====================================================
+Next time
+=====================================================
+	-We finally finished the level class!!!!!!!!
+		...or did we?
+
+	-SLOPES
+		-A very complicated subject
+
