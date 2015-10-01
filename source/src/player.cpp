@@ -3,6 +3,7 @@
 
 namespace player_constants {
 	const float WALK_SPEED = 0.2f;
+	const float JUMP_SPEED = 0.7f;
 
 	const float GRAVITY = 0.002f;
 	const float GRAVITY_CAP = 0.8f;
@@ -57,6 +58,14 @@ void Player::stopMoving() {
 	this->playAnimation(this->_facing == RIGHT ? "IdleRight" : "IdleLeft");
 }
 
+void Player::jump() {
+	if (this->_grounded) {
+		this->_dy = 0;
+		this->_dy -= player_constants::JUMP_SPEED;
+		this->_grounded = false;
+	}
+}
+
 //void handleTileCollisions
 //Handles collisions with ALL tiles the player is colliding with
 void Player::handleTileCollisions(std::vector<Rectangle> &others) {
@@ -66,8 +75,13 @@ void Player::handleTileCollisions(std::vector<Rectangle> &others) {
 		if (collisionSide != sides::NONE) {
 			switch (collisionSide) {
 			case sides::TOP:
-				this->_y = others.at(i).getBottom() + 1;
 				this->_dy = 0;
+				this->_y = others.at(i).getBottom() + 1;
+				if (this->_grounded) {
+					this->_dx = 0;
+					this->_x -= this->_facing == RIGHT ? 1.0f : -1.0f;
+				}
+
 				break;
 			case sides::BOTTOM:
 				this->_y = others.at(i).getTop() - this->_boundingBox.getHeight() - 1;
@@ -82,6 +96,29 @@ void Player::handleTileCollisions(std::vector<Rectangle> &others) {
 				break;
 			}
 
+		}
+	}
+}
+
+//void handleSlopeCollisions
+//Handles collisions with ALL slopes the player is colliding with
+void Player::handleSlopeCollisions(std::vector<Slope> &others) {
+	for (int i = 0; i < others.size(); i++) {
+		//Calculate where on the slope the player's bottom center is touching
+		//and use y=mx+b to figure out the y position to place him at
+		//First calculate "b" (slope intercept) using one of the points (b = y - mx)
+		int b = (others.at(i).getP1().y - (others.at(i).getSlope() * fabs(others.at(i).getP1().x)));
+
+		//Now get player's center x
+		int centerX = this->_boundingBox.getCenterX();
+
+		//Now pass that X into the equation y = mx + b (using our newly found b and x) to get the new y position
+		int newY = (others.at(i).getSlope() * centerX) + b - 8; //8 is temporary to fix a problem
+
+		//Re-position the player to the correct "y"
+		if (this->_grounded) {
+			this->_y = newY - this->_boundingBox.getHeight();
+			this->_grounded = true;
 		}
 	}
 }

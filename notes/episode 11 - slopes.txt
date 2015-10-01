@@ -1,0 +1,49 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 11 - Slopes (and jumping)!
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-We need to be able to run up and down slopes
+		-Currently, we only have rectangular "tile" collisions
+	-We need to be able to jump
+
+=====================================================
+Details
+=====================================================
+	-Polyline slopes
+	-const float JUMP_SPEED = 0.7f;
+
+
+=====================================================
+Solution
+=====================================================
+	-New Object layer in Tiled "slopes"
+	-Draw slopes with the Polyline tool
+	-Utils class: string split function
+	-Create the slope class
+	-Create list of slopes in level class
+	-Parse them out of the .tmx file
+	-Handle the slope collisions (player and game classes)
+	-Player jumping
+
+
+=====================================================
+Next time
+=====================================================
+	-Animated Tiled objects
+		-The health chest
+		-The save floppy disk
+
+
+
+
+
