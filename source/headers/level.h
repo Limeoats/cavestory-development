@@ -8,6 +8,7 @@
 #include "tile.h"
 #include "rectangle.h"
 #include "slope.h"
+#include "animatedtile.h"
 
 class Graphics;
 struct SDL_Texture;
@@ -41,10 +42,15 @@ private:
 	std::vector<Rectangle> _collisionRects;
 	std::vector<Slope> _slopes;
 
+	std::vector<AnimatedTile> _animatedTileList;
+	std::vector<AnimatedTileInfo> _animatedTileInfos;
+
 	/* void loadMap
 	 * Loads a map
 	 */
 	void loadMap(std::string mapName, Graphics &graphics);
+
+	Vector2 getTilesetPosition(Tileset tls, int gid, int tileWidth, int tileHeight);
 
 };
 

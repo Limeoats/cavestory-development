@@ -3,6 +3,27 @@
  <tileset firstgid="1" name="PrtCave" tilewidth="16" tileheight="16">
   <image source="../content/tilesets/PrtCave.png" width="256" height="80"/>
  </tileset>
+ <tileset firstgid="81" name="NpcSym" tilewidth="16" tileheight="16">
+  <image source="../content/tilesets/NpcSym.png" width="320" height="240"/>
+  <tile id="18">
+   <animation>
+    <frame tileid="18" duration="10"/>
+    <frame tileid="19" duration="10"/>
+   </animation>
+  </tile>
+  <tile id="26">
+   <animation>
+    <frame tileid="26" duration="100"/>
+    <frame tileid="27" duration="100"/>
+    <frame tileid="28" duration="100"/>
+    <frame tileid="29" duration="100"/>
+    <frame tileid="30" duration="100"/>
+    <frame tileid="31" duration="100"/>
+    <frame tileid="32" duration="100"/>
+    <frame tileid="33" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
  <layer name="background" width="20" height="16">
   <data>
    <tile gid="34"/>
@@ -482,8 +503,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="99"/>
+   <tile gid="107"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -686,9 +707,6 @@
   </object>
   <object id="21" x="82.2142" y="111.404">
    <polyline points="0,0 31.1847,14.1749"/>
-  </object>
-  <object id="22" x="224.383" y="128.309">
-   <polyline points="0,0 13.6499,-6.29994"/>
   </object>
   <object id="23" x="159.913" y="65.0994">
    <polyline points="0,0 14.1749,-6.61494"/>
