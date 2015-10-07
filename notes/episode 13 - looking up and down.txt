@@ -1,0 +1,39 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 13 - Looking up and down
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+=====================================================
+Problem
+=====================================================
+	-Quote needs to be able to look up and down
+	-Quote also needs to look backwards to interact with things
+
+
+=====================================================
+Details
+=====================================================
+	-MyChar.png
+	
+
+=====================================================
+Solution
+=====================================================
+	-Add new animations
+	-Add functions to player for lookUp, stopLookingUp, lookDown, stopLookingDown
+	-Call these functions from the game class
+	
+
+=====================================================
+Next time
+=====================================================
+	-The HUD (or part of it at least)
+		-We'll get health displayed on the screen
+
+
+
