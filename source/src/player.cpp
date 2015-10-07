@@ -16,12 +16,16 @@ Player::Player(Graphics &graphics, Vector2 spawnPoint) :
 	_dx(0),
 	_dy(0),
 	_facing(RIGHT),
-	_grounded(false)
+	_grounded(false),
+	_lookingUp(false),
+	_lookingDown(false),
+	_maxHealth(3),
+	_currentHealth(3)
 {
 	graphics.loadImage("content/sprites/MyChar.png");
 
 	this->setupAnimations();
-	this->playAnimation("RunRight");
+	this->playAnimation("IdleRight");
 }
 
 void Player::setupAnimations() {

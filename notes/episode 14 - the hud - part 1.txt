@@ -1,0 +1,53 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 14 - The HUD - Part 1
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-We need to see certain information on the screen
+		-Health
+		-Gun EXP
+		-Gun Level
+	-In this episode, we'll be getting health on the screen
+		
+=====================================================
+Details
+=====================================================
+	TextBox.pbm
+		-Health bar sprite:
+			x: 0
+			y: 40
+			width: 64
+			height: 8
+			screen pos x: 35
+			screen pos y: 70
+		-Health number sprite:
+		 	x: 0
+		 	y: 56
+		 	width: 8
+		 	height: 8
+		 	screen pos x: 66
+		 	screen pos y: 70
+
+=====================================================
+Solution
+=====================================================
+	-Add player health
+	-Create a bunch of Sprite objects in a new HUD class
+	-Special update/drawing logic
+	-Add it to the game class
+
+	
+
+=====================================================
+Next time
+=====================================================
+	-More HUD

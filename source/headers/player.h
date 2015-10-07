@@ -64,6 +64,9 @@ public:
 	const float getX() const;
 	const float getY() const;
 
+	const inline int getMaxHealth() const { return this->_maxHealth; }
+	const inline int getCurrentHealth() const { return this->_currentHealth; }
+
 private:
 	float _dx, _dy;
 
@@ -73,6 +76,9 @@ private:
 
 	bool _lookingUp;
 	bool _lookingDown;
+
+	int _maxHealth;
+	int _currentHealth;
 };
 
 #endif
