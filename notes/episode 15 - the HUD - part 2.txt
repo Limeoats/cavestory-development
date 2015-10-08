@@ -1,0 +1,48 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 15 - The HUD - Part 2
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-We need to finish up the HUD
+		-Exp bar
+		-Exp number
+		-Some gun information
+		-The "current" health bar
+		
+
+
+=====================================================
+Details
+======================================================
+	currentHealthBar = 0, 25, 39, 5, 83, 72
+	lvWord = 81, 81, 11, 7, 38, 55
+	lvNumber = 0, 56, 8, 8,  66, 52
+	expBar = 0, 72, 40, 8, 83, 52
+	slash = 72, 48, 8, 8, 100, 36
+	dashes = 81, 51, 15, 11, 132, 26
+	
+
+=====================================================
+Solution
+=====================================================
+	-Fix FPS
+	-Implement setSourceRectW and setSourceRectH in Sprite
+	-Add all of the sprites in the correct positions!
+
+
+
+=====================================================
+Next time
+=====================================================
+	-Build the next map (I'll do it separately, you'll take my .tmx file or do it on your own)
+	-Get through the door!
+
