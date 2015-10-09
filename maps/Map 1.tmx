@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="16" tilewidth="16" tileheight="16" nextobjectid="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="16" tilewidth="16" tileheight="16" nextobjectid="33">
  <tileset firstgid="1" name="PrtCave" tilewidth="16" tileheight="16">
   <image source="../content/tilesets/PrtCave.png" width="256" height="80"/>
  </tileset>
@@ -710,6 +710,13 @@
   </object>
   <object id="23" x="159.913" y="65.0994">
    <polyline points="0,0 14.1749,-6.61494"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="doors">
+  <object id="32" x="147.466" y="50.8598" width="9.14938" height="12.6477">
+   <properties>
+    <property name="destination" value="Map 2"/>
+   </properties>
   </object>
  </objectgroup>
 </map>

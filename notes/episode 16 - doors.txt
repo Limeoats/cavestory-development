@@ -1,0 +1,42 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 16 - Doors
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-We need to be able to go through doors
+
+=====================================================
+Details
+=====================================================
+	Map 2.tmx (get it from github!)
+
+=====================================================
+Solution
+=====================================================
+	-Add door object to map 1
+	-Create door class
+	-Parse the door info out of the tmx file
+	-Handle the collision of the player with the door	
+
+
+=====================================================
+Next time
+=====================================================
+	-Our first enemy!!!!!!!!!!!
+		-A bat
+			-Drawing it to the screen
+			-Making it move
+			-Making it hurt us
+
+
+
+	
