@@ -1,0 +1,45 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 17 - Enemies
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-We don't have any monsters in our game yet :(
+		
+
+
+=====================================================
+Details
+=====================================================
+-We'll be using the Bat in NpcCemet
+	
+	3, 2, 32, "FlyLeft", 16, 16
+	3, 2, 48, "FlyRight", 16, 16
+	
+
+=====================================================
+Solution
+=====================================================
+	-Get NpcCemet.pbm, make background transparent, make it a png and put it in sprites folder
+	-Create Enemy base class
+	-Create Bat class extending off of Enemy
+	-Add bat spawn points to Tiled
+	-Parse enemy info out of tmx file and into an Enemy vector
+	-Update and draw from the level class
+
+
+=====================================================
+Next time
+=====================================================
+	-Move the bat
+	-Collision with the bat (and damage to the player)
+	-Damage numbers? (maybe two episodes from now)
+

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="16" tilewidth="16" tileheight="16" nextobjectid="44">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="16" tilewidth="16" tileheight="16" nextobjectid="49">
  <tileset firstgid="1" name="PrtCave" tilewidth="16" tileheight="16">
   <image source="../content/tilesets/PrtCave.png" width="256" height="80"/>
  </tileset>
@@ -711,6 +711,23 @@
   </object>
   <object id="34" x="303.343" y="89.8054">
    <polyline points="0,0 -123.399,59.2051"/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#4100ff" name="enemies">
+  <object id="44" name="bat" x="115.498" y="135.057" width="3.96448" height="3.96448">
+   <ellipse/>
+  </object>
+  <object id="45" name="bat" x="193.995" y="48.1023" width="3.17158" height="3.70018">
+   <ellipse/>
+  </object>
+  <object id="46" name="bat" x="291.521" y="32.2444" width="3.70018" height="3.43588">
+   <ellipse/>
+  </object>
+  <object id="47" name="bat" x="202.981" y="199.281" width="3.70018" height="3.96448">
+   <ellipse/>
+  </object>
+  <object id="48" name="bat" x="214.61" y="84.3112" width="3.43588" height="3.43588">
+   <ellipse/>
   </object>
  </objectgroup>
 </map>
