@@ -1,0 +1,41 @@
+=====================================================
+Remaking Cavestory in C++
+Episode 18 - Enemies - Part 2
+By: Limeoats
+Website: www.limeoats.com
+Twitter: @Limeoats
+Github: https://github.com/Limeoats/cavestory-development
+Reddit: http://www.reddit.com/r/Limeoats
+=====================================================
+
+
+=====================================================
+Problem
+=====================================================
+	-Our bat doesn't move. 
+	-It also can't hurt us
+		
+
+
+=====================================================
+Details
+=====================================================
+	-The bat will move 20 units away from the starting point in either direction
+	-The bat will move by .2 units per frame
+	-The bat will do 1 damage
+	
+
+=====================================================
+Solution
+=====================================================
+	-Add a few new private properties to bat
+	-Update the update function with the new logic for moving
+	-Handle the collision
+
+=====================================================
+Next time
+=====================================================
+	-Guns :D
+
+
+
