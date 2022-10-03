@@ -8,3 +8,9 @@ If you're looking for the assets for this project, please go to http://www.caves
 
 ## Contacting me
 If you need help with setting something up, compiler errors, or anything else related to this project, please do not hesitate to contact me! Post questions you have at http://www.reddit.com/r/limeoats.
+
+## Support
+
+If you find this tutorial helpful and would like to say thank you, feel free to click the button below and buy me a coffee!
+
+<a href='https://ko-fi.com/Q5Q8FGABI' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
